@@ -1,0 +1,307 @@
+$navbar-font-color: #fcd307 !important;
+$app-color: white;
+$font-color: #fff;
+
+body {
+  background-color: $app-color;
+}
+
+//Navbar Section
+a.logo {
+  font-family: "Spinnaker", sans-serif;
+  font-size: 29px;
+  font-weight: bold;
+  font-style: normal;
+}
+
+a.textmenu {
+  font-weight: normal;
+  font-stretch: normal;
+  font-size: 14px;
+  font-family: "helvetica-w01-roman", "helvetica-w02-roman",
+    "helvetica-lt-w10-roman", sans-serif;
+  font-style: normal;
+}
+
+a.textmenu:hover {
+  color: $navbar-font-color;
+  transition-property: $navbar-font-color;
+  transition-duration: 0.4s;
+  transition-timing-function: ease;
+  transition-delay: 0s;
+}
+
+a.textmenu:focus {
+  color: $navbar-font-color;
+}
+
+.dropdown:hover > .dropdown-menu {
+  display: block;
+  border: none;
+}
+.dropdown-menu {
+  margin-top: 0;
+}
+.dropdown-item:hover {
+  background-color: #fff;
+}
+
+div.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0;
+}
+
+// Banner Section
+div.banner {
+  overflow: hidden;
+  height: 600px;
+
+  & img {
+    width: calc(100% - 0px);
+    height: calc(100% - 0px);
+  }
+
+  & .container {
+    display: flex;
+  }
+
+  & .text1,
+  .text2,
+  .text3 {
+    position: absolute;
+    color: black;
+    text-align: left;
+  }
+
+  & div.text1 {
+    top: 5%;
+    left: 25%;
+  }
+
+  & div.text2 {
+    top: 14%;
+    left: 25%;
+  }
+
+  & div.text3 {
+    top: 17%;
+    left: 25%;
+  }
+}
+
+//Selection section
+div.selection {
+  background-color: grey;
+  height: 500px;
+
+  & .header {
+    width: 55%;
+    height: 160px;
+    padding-top: 10px;
+  }
+
+  & span > p {
+    color: white;
+    font-size: 30px;
+    font-family: sans-serif;
+  }
+
+  & .pics {
+    height: 180px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  & .image {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+
+    & img {
+      transform: scale(1);
+      background-color: #fff;
+    }
+
+    & a {
+      flex: 0 19%;
+      text-decoration: underline;
+      color: white;
+    }
+  }
+}
+
+//Tagline section
+.tagline {
+  background-color: white;
+  height: 1000px;
+  & .container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  & .header {
+    font-size: 60px;
+    font-weight: 500;
+    padding-top: 60px;
+    padding-bottom: 20px;
+  }
+
+  & .text {
+    font-size: 40px;
+  }
+}
+
+//contact section
+.contact {
+  background-color: black;
+  height: 600px;
+
+  & > .container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  & .header {
+    color: white;
+    padding-top: 150px;
+  }
+
+  & .body {
+    padding-top: 20px;
+  }
+
+  & .site {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 10px;
+  }
+
+  & a {
+    font-size: 25px;
+    padding-left: 10px;
+    text-decoration: underline;
+    color: white;
+  }
+
+  & .icons {
+    width: 60px;
+  }
+
+  & i {
+    font-size: 3em;
+  }
+}
+
+//Footer Section
+.footer {
+  height: 60px;
+  & > .container {
+    display: flex;
+    flex-direction: row;
+  }
+
+  & .text > button,
+  & .text > button:hover {
+    text-decoration: underline;
+    padding-top: 10px;
+    color: black;
+  }
+
+  & .text {
+    flex: 1;
+    font-size: 12px;
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  & .icon {
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+//Head Banner Section
+.head_banner {
+  background-color: black;
+  height: 150px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  & .container {
+    width: 50%;
+    padding-left: 10px;
+  }
+
+  & #text_1 {
+    font-family: serif;
+    font-size: 50px;
+  }
+}
+
+//Card Section
+.cardContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  & .cardContents {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 900px;
+
+    & .card {
+      padding: 50px 50px 50px 50px;
+      border: none;
+    }
+
+    & .card-img-top {
+      height: auto;
+      width: 100px;
+    }
+  }
+}
+
+//Education Section
+.eduContainer {
+  display: flex;
+  flex-direction: row;
+  & .sideBar {
+    height: 600px;
+    width: 200px;
+  }
+}
+
+// // Small devices (landscape phones, 576px and up)
+// @media (min-width: 576px) {
+//   div.banner > img {
+//     transform: scale(1);
+//   }
+// }
+
+// // Medium devices (tablets, 768px and up)
+// @media (min-width: 768px) {
+//   div.banner > img {
+//     transform: scale(1);
+//   }
+// }
+
+// // Large devices (desktops, 992px and up)
+// @media (min-width: 992px) {
+//   div.banner > img {
+//     transform: scale(1.2);
+//   }
+// }
+
+// // Extra large devices (large desktops, 1200px and up)
+// @media (min-width: 1200px) {
+//   div.banner > img {
+//     transform: scale(2);
+//   }
+// }

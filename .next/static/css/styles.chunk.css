@@ -1,0 +1,192 @@
+body {
+  background-color: white; }
+
+a.logo {
+  font-family: "Spinnaker", sans-serif;
+  font-size: 29px;
+  font-weight: bold;
+  font-style: normal; }
+
+a.textmenu {
+  font-weight: normal;
+  font-stretch: normal;
+  font-size: 14px;
+  font-family: "helvetica-w01-roman", "helvetica-w02-roman", "helvetica-lt-w10-roman", sans-serif;
+  font-style: normal; }
+
+a.textmenu:hover {
+  color: #fcd307 !important;
+  transition-property: #fcd307 !important;
+  transition-duration: 0.4s;
+  transition-timing-function: ease;
+  transition-delay: 0s; }
+
+a.textmenu:focus {
+  color: #fcd307 !important; }
+
+.dropdown:hover > .dropdown-menu {
+  display: block;
+  border: none; }
+
+.dropdown-menu {
+  margin-top: 0; }
+
+.dropdown-item:hover {
+  background-color: #fff; }
+
+div.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0; }
+
+div.banner {
+  overflow: hidden;
+  height: 600px; }
+  div.banner img {
+    width: calc(100% - 0px);
+    height: calc(100% - 0px); }
+  div.banner .container {
+    display: flex; }
+  div.banner .text1,
+  div.banner .text2,
+  div.banner .text3 {
+    position: absolute;
+    color: black;
+    text-align: left; }
+  div.banner div.text1 {
+    top: 5%;
+    left: 25%; }
+  div.banner div.text2 {
+    top: 14%;
+    left: 25%; }
+  div.banner div.text3 {
+    top: 17%;
+    left: 25%; }
+
+div.selection {
+  background-color: grey;
+  height: 500px; }
+  div.selection .header {
+    width: 55%;
+    height: 160px;
+    padding-top: 10px; }
+  div.selection span > p {
+    color: white;
+    font-size: 30px;
+    font-family: sans-serif; }
+  div.selection .pics {
+    height: 180px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; }
+  div.selection .image {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center; }
+    div.selection .image img {
+      transform: scale(1);
+      background-color: #fff; }
+    div.selection .image a {
+      flex: 0 19%;
+      text-decoration: underline;
+      color: white; }
+
+.tagline {
+  background-color: white;
+  height: 1000px; }
+  .tagline .container {
+    display: flex;
+    flex-direction: column; }
+  .tagline .header {
+    font-size: 60px;
+    font-weight: 500;
+    padding-top: 60px;
+    padding-bottom: 20px; }
+  .tagline .text {
+    font-size: 40px; }
+
+.contact {
+  background-color: black;
+  height: 600px; }
+  .contact > .container {
+    display: flex;
+    flex-direction: column; }
+  .contact .header {
+    color: white;
+    padding-top: 150px; }
+  .contact .body {
+    padding-top: 20px; }
+  .contact .site {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 10px; }
+  .contact a {
+    font-size: 25px;
+    padding-left: 10px;
+    text-decoration: underline;
+    color: white; }
+  .contact .icons {
+    width: 60px; }
+  .contact i {
+    font-size: 3em; }
+
+.footer {
+  height: 60px; }
+  .footer > .container {
+    display: flex;
+    flex-direction: row; }
+  .footer .text > button,
+  .footer .text > button:hover {
+    text-decoration: underline;
+    padding-top: 10px;
+    color: black; }
+  .footer .text {
+    flex: 1;
+    font-size: 12px;
+    text-align: center;
+    margin-top: 10px; }
+  .footer .icon {
+    display: flex;
+    flex-direction: row; }
+
+.head_banner {
+  background-color: black;
+  height: 150px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+  .head_banner .container {
+    width: 50%;
+    padding-left: 10px; }
+  .head_banner #text_1 {
+    font-family: serif;
+    font-size: 50px; }
+
+.cardContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .cardContainer .cardContents {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 900px; }
+    .cardContainer .cardContents .card {
+      padding: 50px 50px 50px 50px;
+      border: none; }
+    .cardContainer .cardContents .card-img-top {
+      height: auto;
+      width: 100px; }
+
+.eduContainer {
+  display: flex;
+  flex-direction: row; }
+  .eduContainer .sideBar {
+    height: 600px;
+    width: 200px; }
+
+
+/*# sourceMappingURL=styles.chunk.css.map*/
