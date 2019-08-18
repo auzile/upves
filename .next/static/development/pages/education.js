@@ -1,5 +1,204 @@
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static\\development\\pages\\education.js"],{
 
+/***/ "./components/Articles/Anotherpage.js":
+/*!********************************************!*\
+  !*** ./components/Articles/Anotherpage.js ***!
+  \********************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+var _jsxFileName = "G:\\Documents\\Projects\\upves\\components\\Articles\\Anotherpage.js";
+
+
+var anotherpage = function anotherpage() {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 3
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 4
+    },
+    __self: this
+  }, "Tesque"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 5
+    },
+    __self: this
+  }, "\"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...\""), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h5", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 9
+    },
+    __self: this
+  }, "\"There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain...\""), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("hr", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    id: "Content",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    id: "bannerL",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15
+    },
+    __self: this
+  }, "\xA0"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    id: "bannerR",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16
+    },
+    __self: this
+  }, "\xA0"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    class: "boxed",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    id: "lipsum",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 18
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 19
+    },
+    __self: this
+  }, "Fusce ultrices purus quis enim porta aliquet. Quisque cursus dignissim nibh eu finibus. Mauris a orci vestibulum, elementum dolor id, egestas metus. Donec arcu ipsum, condimentum sit amet orci sed, gravida tincidunt velit. Nam semper, felis in porta ullamcorper, lorem arcu convallis diam, in dictum odio elit et dolor. Proin elementum dolor enim, laoreet condimentum nibh iaculis sit amet. Praesent mollis lacus risus, nec ultrices ante convallis ut. Fusce non luctus odio. Suspendisse mattis mi massa, nec sagittis sapien viverra at. Aliquam venenatis odio hendrerit consequat sagittis. Suspendisse facilisis nulla vitae ornare scelerisque."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 32
+    },
+    __self: this
+  }, "Praesent non elit nulla. Donec eu interdum sapien. Mauris sollicitudin, nisi ac dapibus lobortis, dolor elit dapibus massa, id commodo mauris felis a neque. Vestibulum pharetra laoreet sapien sed ultrices. Praesent non semper urna. Aenean sit amet libero ac dolor facilisis bibendum. Maecenas quis massa nisl. Vestibulum in dui sollicitudin mauris tempor ultricies. Nullam ut porta ex, ac placerat erat."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 41
+    },
+    __self: this
+  }, "Mauris sit amet lectus ante. Nulla facilisi. Nam et tortor eget nisi fringilla pretium. Donec sed ligula dolor. In sit amet odio mi. Sed semper diam quis turpis rutrum tincidunt. Praesent facilisis venenatis nunc, eu imperdiet massa laoreet quis. Nunc cursus nibh vitae velit rutrum, at ornare leo consectetur. Phasellus eleifend purus id lorem varius, quis molestie odio consequat. Donec auctor efficitur elit a efficitur. Suspendisse potenti."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 51
+    },
+    __self: this
+  }, "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Suspendisse vel iaculis tellus, eu tincidunt lacus. Nunc dignissim vestibulum erat. Fusce faucibus lacus eu libero euismod, eget malesuada lacus pellentesque. Cras ex velit, fringilla eu turpis eget, posuere pellentesque ipsum. Praesent laoreet massa mattis lacus rutrum efficitur. Maecenas sollicitudin nec felis eget viverra. Mauris in dolor ac ligula sagittis maximus."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 61
+    },
+    __self: this
+  }, "Donec quis vehicula nulla. Morbi tellus risus, viverra vel diam faucibus, fringilla vehicula orci. Proin non dolor imperdiet, pretium turpis at, euismod turpis. Maecenas fringilla nisi sit amet porttitor varius. Phasellus facilisis vulputate rhoncus. Mauris auctor velit in enim blandit, quis aliquet nisi maximus. Proin vel tincidunt libero. Cras quis lacinia elit, sodales placerat sem. Ut fringilla leo non hendrerit sodales. Praesent faucibus massa in posuere aliquam. Donec interdum eleifend nisi a luctus. In hac habitasse platea dictumst. Vestibulum suscipit mi luctus, rhoncus enim id, pulvinar lacus. Morbi mi diam, egestas et orci eu, iaculis suscipit purus.")))));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (anotherpage);
+
+/***/ }),
+
+/***/ "./components/Articles/Introduction.js":
+/*!*********************************************!*\
+  !*** ./components/Articles/Introduction.js ***!
+  \*********************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+var _jsxFileName = "G:\\Documents\\Projects\\upves\\components\\Articles\\Introduction.js";
+
+
+var intro = function intro() {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 3
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 4
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("em", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 5
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 6
+    },
+    __self: this
+  }, "Lorem Ipsum"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 9
+    },
+    __self: this
+  }, "\xA0"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 10
+    },
+    __self: this
+  }, "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec posuere vel diam at consequat. Donec a metus et tellus ullamcorper ultricies eget id orci. Maecenas nulla diam, consectetur vitae cursus posuere, pulvinar sit amet justo. Praesent vitae nisl a mauris dapibus pulvinar. Nullam accumsan, ex quis sollicitudin sodales, metus erat pellentesque magna, lacinia facilisis diam tellus id lectus. Cras eu felis nulla. Duis est velit, iaculis in orci at, fringilla finibus odio. Pellentesque urna erat, accumsan a tincidunt ut, ultrices sed neque. Duis vestibulum ultricies neque at viverra. In vel tempor orci. Aliquam ornare justo sit amet mauris mattis interdum. Proin euismod est id erat tempus, eget ultricies risus cursus. Aliquam vel ultrices mauris. Suspendisse lobortis diam non est tristique, eu accumsan urna aliquet."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24
+    },
+    __self: this
+  }, "Integer lorem leo, faucibus non cursus vel, luctus iaculis risus. Proin nisl magna, tempor auctor commodo quis, lacinia eget quam. Fusce ut aliquet lorem. Morbi facilisis sem vel sapien malesuada sollicitudin. Mauris leo arcu, tempor quis tellus ut, rhoncus efficitur tortor. Pellentesque nulla lacus, auctor id volutpat et, tempor vel elit. Aenean rhoncus tincidunt lacus in cursus. Aliquam semper, felis ut ornare tincidunt, felis mi dignissim dui, nec tincidunt turpis arcu sit amet lorem. Praesent eget tellus quis ligula rhoncus porta sed eget erat. Ut est lectus, vulputate eget nisl eu, malesuada rhoncus odio. Ut at mauris eget ante posuere ultricies id a mi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In volutpat nisi dictum nibh accumsan, a venenatis urna fringilla."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 38
+    },
+    __self: this
+  }, "Vivamus at faucibus arcu. Suspendisse aliquet faucibus lacus, aliquet gravida felis. Aenean volutpat dui sed sagittis rutrum. Suspendisse consectetur dapibus viverra. Cras suscipit nisl vel erat dignissim, pretium facilisis arcu maximus. Nullam varius elit in leo sodales accumsan. Sed porta metus vehicula mauris varius, at tristique mi venenatis. Aenean efficitur eget risus vitae maximus. Nam odio ante, commodo sed volutpat et, hendrerit ac augue. Cras sollicitudin tristique mauris, a tristique nisi porttitor vitae. In urna leo, molestie ac sagittis eget, laoreet suscipit ipsum. Nulla fermentum ante sed orci sollicitudin bibendum. Praesent egestas tincidunt ligula eu maximus. Morbi in orci varius, volutpat lacus sit amet, condimentum dui. Nam est nibh, ultricies non elit vel, mattis venenatis ipsum. Sed mollis erat scelerisque, efficitur libero et, auctor orci."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 53
+    },
+    __self: this
+  }, "Vestibulum nec velit at eros eleifend ultrices eu quis massa. Donec vel mollis felis, et tempus ligula. In auctor orci vitae risus ornare, id venenatis nisi mollis. Phasellus et lacus dui. Cras euismod sodales eros nec dictum. Duis enim massa, tempor id dapibus iaculis, tempor non lacus. Mauris et euismod elit. Mauris tincidunt nulla dolor, nec feugiat lorem rhoncus non. Aliquam sit amet enim velit. In in malesuada dui, vel molestie velit. Curabitur non enim consequat, eleifend eros rutrum, facilisis nisl."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 63
+    },
+    __self: this
+  }, "Vivamus at ante eget risus convallis cursus. Nunc condimentum pellentesque eleifend. Nulla feugiat tempus aliquet. Donec suscipit mi eu lacinia rutrum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec aliquam placerat pulvinar. Etiam aliquam tincidunt ligula sit amet suscipit. Morbi vulputate quam eu bibendum molestie. Pellentesque eu dolor condimentum, bibendum mi at, bibendum elit. Nulla tempor tempus massa et aliquam."));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (intro);
+
+/***/ }),
+
 /***/ "./components/Footer.js":
 /*!******************************!*\
   !*** ./components/Footer.js ***!
@@ -227,6 +426,100 @@ function (_React$Component) {
 }(react__WEBPACK_IMPORTED_MODULE_5___default.a.Component);
 
 /* harmony default export */ __webpack_exports__["default"] = (Head_Banner);
+
+/***/ }),
+
+/***/ "./components/Listlink.js":
+/*!********************************!*\
+  !*** ./components/Listlink.js ***!
+  \********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/classCallCheck */ "./node_modules/@babel/runtime-corejs2/helpers/esm/classCallCheck.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/createClass */ "./node_modules/@babel/runtime-corejs2/helpers/esm/createClass.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/possibleConstructorReturn */ "./node_modules/@babel/runtime-corejs2/helpers/esm/possibleConstructorReturn.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/getPrototypeOf */ "./node_modules/@babel/runtime-corejs2/helpers/esm/getPrototypeOf.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/inherits */ "./node_modules/@babel/runtime-corejs2/helpers/esm/inherits.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_6__);
+
+
+
+
+
+var _jsxFileName = "G:\\Documents\\Projects\\upves\\components\\Listlink.js";
+
+
+
+var Listlink =
+/*#__PURE__*/
+function (_React$Component) {
+  Object(_babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__["default"])(Listlink, _React$Component);
+
+  function Listlink(props) {
+    var _this;
+
+    Object(_babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__["default"])(this, Listlink);
+
+    _this = Object(_babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__["default"])(this, Object(_babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__["default"])(Listlink).call(this, props));
+    _this.state = {
+      list: ["Getting Started", "Instruction", "Download", "Contents", "Browsers & Devices", "Theming"],
+      IndexState: 0
+    };
+    return _this;
+  }
+
+  Object(_babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(Listlink, [{
+    key: "render",
+    value: function render() {
+      return react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+        className: "sideBar border",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 21
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("ul", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 22
+        },
+        __self: this
+      }, this.state.list.map(function (li, i) {
+        return react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("li", {
+          key: i,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 24
+          },
+          __self: this
+        }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_6___default.a, {
+          href: "/education",
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 25
+          },
+          __self: this
+        }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("a", {
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 26
+          },
+          __self: this
+        }, li)));
+      })));
+    }
+  }]);
+
+  return Listlink;
+}(react__WEBPACK_IMPORTED_MODULE_5___default.a.Component);
+
+/* harmony default export */ __webpack_exports__["default"] = (Listlink);
 
 /***/ }),
 
@@ -13239,12 +13532,13 @@ module.exports = function(module) {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _components_Head_Banner__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/Head_Banner */ "./components/Head_Banner.js");
-/* harmony import */ var _layouts_Layout__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../layouts/Layout */ "./layouts/Layout.js");
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var _styles_styles_scss__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../styles/styles.scss */ "./styles/styles.scss");
-/* harmony import */ var _styles_styles_scss__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_styles_styles_scss__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _components_Articles_Anotherpage__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/Articles/Anotherpage */ "./components/Articles/Anotherpage.js");
+/* harmony import */ var _components_Articles_Introduction__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/Articles/Introduction */ "./components/Articles/Introduction.js");
+/* harmony import */ var _components_Head_Banner__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/Head_Banner */ "./components/Head_Banner.js");
+/* harmony import */ var _components_Listlink__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/Listlink */ "./components/Listlink.js");
+/* harmony import */ var _layouts_Layout__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../layouts/Layout */ "./layouts/Layout.js");
+/* harmony import */ var _styles_styles_scss__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../styles/styles.scss */ "./styles/styles.scss");
+/* harmony import */ var _styles_styles_scss__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_styles_styles_scss__WEBPACK_IMPORTED_MODULE_6__);
 var _jsxFileName = "G:\\Documents\\Projects\\upves\\pages\\education.js";
 
 
@@ -13252,62 +13546,61 @@ var _jsxFileName = "G:\\Documents\\Projects\\upves\\pages\\education.js";
 
 
 
+
+
 var education = function education() {
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_layouts_Layout__WEBPACK_IMPORTED_MODULE_2__["default"], {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_layouts_Layout__WEBPACK_IMPORTED_MODULE_5__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 7
+      lineNumber: 9
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Head_Banner__WEBPACK_IMPORTED_MODULE_1__["default"], {
-    text_1: "EDUCATION",
-    text_2: "You can learn about investment here.",
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Head_Banner__WEBPACK_IMPORTED_MODULE_3__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 8
+      lineNumber: 10
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "eduContainer",
     __source: {
       fileName: _jsxFileName,
+      lineNumber: 11
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Listlink__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    __source: {
+      fileName: _jsxFileName,
       lineNumber: 12
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "sideBar border",
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "article",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 13
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Articles_Introduction__WEBPACK_IMPORTED_MODULE_2__["default"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 14
     },
     __self: this
-  }, "Title"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Articles_Anotherpage__WEBPACK_IMPORTED_MODULE_1__["default"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 15
     },
     __self: this
-  }, "TesPenjelasan")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "article",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 17
-    },
-    __self: this
-  }, "Tes Penjelasan ARtikel")));
+  }))));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (education);
 
 /***/ }),
 
-/***/ 6:
+/***/ 2:
 /*!************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2Feducation&absolutePagePath=G%3A%5CDocuments%5CProjects%5Cupves%5Cpages%5Ceducation.js ***!
   \************************************************************************************************************************************/
@@ -13330,5 +13623,5 @@ module.exports = dll_1aef2d0bbc0d334d831c;
 
 /***/ })
 
-},[[6,"static/runtime/webpack.js","styles"]]]);
+},[[2,"static/runtime/webpack.js","styles"]]]);
 //# sourceMappingURL=education.js.map

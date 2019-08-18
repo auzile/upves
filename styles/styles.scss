@@ -2,6 +2,14 @@ $navbar-font-color: #fcd307 !important;
 $app-color: white;
 $font-color: #fff;
 
+@mixin hover-text-prop($color) {
+  color: $color;
+  transition-property: $color;
+  transition-duration: 0.4s;
+  transition-timing-function: ease;
+  transition-delay: 0s;
+}
+
 body {
   background-color: $app-color;
 }
@@ -24,11 +32,7 @@ a.textmenu {
 }
 
 a.textmenu:hover {
-  color: $navbar-font-color;
-  transition-property: $navbar-font-color;
-  transition-duration: 0.4s;
-  transition-timing-function: ease;
-  transition-delay: 0s;
+  @include hover-text-prop($navbar-font-color);
 }
 
 a.textmenu:focus {
@@ -273,35 +277,45 @@ div.selection {
   display: flex;
   flex-direction: row;
   & .sideBar {
-    height: 600px;
-    width: 200px;
+    height: auto;
+    width: 100vh;
+    overflow-y: auto;
+  }
+
+  ::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+  }
+
+  & .article {
+    margin-left: 50px;
+    height: 750px;
+    overflow-y: auto;
+  }
+
+  & ul {
+    margin-top: 10px;
+
+    list-style-type: none;
+
+    & li:first-child > a {
+      font-weight: bold;
+      color: black;
+    }
+
+    & li > a {
+      font-weight: normal;
+      font-stretch: normal;
+      font-size: 14px;
+      font-family: "helvetica-w01-roman", "helvetica-w02-roman",
+        "helvetica-lt-w10-roman", sans-serif;
+      font-style: normal;
+      color: grey;
+
+      &:hover {
+        @include hover-text-prop(black);
+        text-decoration: none;
+      }
+    }
   }
 }
-
-// // Small devices (landscape phones, 576px and up)
-// @media (min-width: 576px) {
-//   div.banner > img {
-//     transform: scale(1);
-//   }
-// }
-
-// // Medium devices (tablets, 768px and up)
-// @media (min-width: 768px) {
-//   div.banner > img {
-//     transform: scale(1);
-//   }
-// }
-
-// // Large devices (desktops, 992px and up)
-// @media (min-width: 992px) {
-//   div.banner > img {
-//     transform: scale(1.2);
-//   }
-// }
-
-// // Extra large devices (large desktops, 1200px and up)
-// @media (min-width: 1200px) {
-//   div.banner > img {
-//     transform: scale(2);
-//   }
-// }

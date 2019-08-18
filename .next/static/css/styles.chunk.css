@@ -185,8 +185,36 @@ div.selection {
   display: flex;
   flex-direction: row; }
   .eduContainer .sideBar {
-    height: 600px;
-    width: 200px; }
+    height: auto;
+    width: 100vh;
+    overflow-y: auto; }
+  .eduContainer ::-webkit-scrollbar {
+    width: 0px;
+    background: transparent; }
+  .eduContainer .article {
+    margin-left: 50px;
+    height: 750px;
+    overflow-y: auto; }
+  .eduContainer ul {
+    margin-top: 10px;
+    list-style-type: none; }
+    .eduContainer ul li:first-child > a {
+      font-weight: bold;
+      color: black; }
+    .eduContainer ul li > a {
+      font-weight: normal;
+      font-stretch: normal;
+      font-size: 14px;
+      font-family: "helvetica-w01-roman", "helvetica-w02-roman", "helvetica-lt-w10-roman", sans-serif;
+      font-style: normal;
+      color: grey; }
+      .eduContainer ul li > a:hover {
+        color: black;
+        transition-property: black;
+        transition-duration: 0.4s;
+        transition-timing-function: ease;
+        transition-delay: 0s;
+        text-decoration: none; }
 
 
 /*# sourceMappingURL=styles.chunk.css.map*/
