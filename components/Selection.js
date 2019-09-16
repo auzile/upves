@@ -12,7 +12,7 @@ const Selection = () => (
       <div className="pics">
         <div className="image">
           <img
-            class="rounded-circle"
+            className="rounded-circle"
             src="https://static.wixstatic.com/media/25880e_9f54d679580c4d51a03a9263b00d32e5~mv2_d_1300_1300_s_2.jpg/v1/fill/w_136,h_124,al_c,q_80,usm_0.66_1.00_0.01/93463110-capital-investment-icon.webp"
             alt="investment pic"
           />
@@ -23,7 +23,7 @@ const Selection = () => (
 
         <div className="image">
           <img
-            class="rounded-circle"
+            className="rounded-circle"
             src="https://static.wixstatic.com/media/25880e_6e760e5b78e443038f7a56e6c4d409e4~mv2.png/v1/fill/w_128,h_124,al_c,q_80,usm_0.66_1.00_0.01/download.webp"
             alt="balanced pic"
           />
@@ -33,7 +33,7 @@ const Selection = () => (
         </div>
         <div className="image">
           <img
-            class="rounded-circle"
+            className="rounded-circle"
             src="https://static.wixstatic.com/media/25880e_ceb0e5171ff54fbb85f8471cbb0dc405~mv2.png/v1/fill/w_132,h_140,al_c,q_80,usm_0.66_1.00_0.01/investor-investment-investing-invest-009.webp"
             alt="high profit pic"
           />

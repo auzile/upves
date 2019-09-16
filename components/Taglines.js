@@ -1,5 +1,5 @@
 const Tagline = () => (
-  <div class="tagline">
+  <div className="tagline">
     <div className="container col-lg-6 col-md-6 mx-auto">
       <div className="header">
         <p>WHAT IS UPVES?</p>

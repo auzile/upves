@@ -19,7 +19,7 @@ class Footer extends React.Component {
             <div className="text">
               <button
                 type="button"
-                class="btn btn-link"
+                className="btn btn-link"
                 onClick={this.scrollToTop}
               >
                 © 2019 UPVES

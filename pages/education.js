@@ -5,17 +5,43 @@ import Listlink from "../components/Listlink";
 import Layout from "../layouts/Layout";
 import "../styles/styles.scss";
 
-const education = () => (
-  <Layout>
-    <Head_Banner />
-    <div className="eduContainer">
-      <Listlink />
-      <div className="article">
-        <Intro />
-        <Anotherpage />
-      </div>
-    </div>
-  </Layout>
-);
+class education extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      list: [
+        "Getting Started",
+        "Instruction",
+        "Download",
+        "Contents",
+        "Browsers & Devices",
+        "Theming"
+      ],
+      IndexState: 0
+    };
+  }
+
+  handleChange = e => {
+    this.setState({ IndexState: e });
+  };
+
+  render() {
+    let article = "";
+    if (this.state.IndexState === 0) {
+      article = <Intro />;
+    } else {
+      article = <Anotherpage />;
+    }
+    return (
+      <Layout>
+        <Head_Banner />
+        <div className="eduContainer">
+          <Listlink list={this.state.list} onChangeIndex={this.handleChange} />
+          <div className="article">{article}</div>
+        </div>
+      </Layout>
+    );
+  }
+}
 
 export default education;

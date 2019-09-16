@@ -23,7 +23,7 @@ const Banner = () => (
       <div className="text3 col-lg-6 col-md-6">
         <h4>
           <Link href="education">
-            <a class="text-dark">
+            <a className="text-dark">
               <u>I want to learn first</u>
             </a>
           </Link>

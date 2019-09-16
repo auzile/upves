@@ -1,6 +1,5 @@
 class Head_Banner extends React.Component {
   render() {
-    console.log(this.props);
     return (
       <div className="head_banner">
         <div className="container">

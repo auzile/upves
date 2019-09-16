@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 const Contact = () => (
-  <div class="contact">
+  <div className="contact">
     <div className="container col-lg-6 col-md-6 mx-auto">
       <div className="header">
         <h1>CONTACT US</h1>
@@ -25,7 +25,7 @@ const Contact = () => (
         </div>
         <div className="site">
           <div className="icons">
-            <i class="fa fa-envelope-o" aria-hidden="true" />
+            <i className="fa fa-envelope-o" aria-hidden="true" />
           </div>
           <Link href="upvesofficial@gmail.com">
             <a target="_blank">upvesofficial@gmail.com</a>

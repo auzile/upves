@@ -14,7 +14,7 @@ const anotherpage = () => {
       <div id="Content">
         <div id="bannerL">&nbsp;</div>
         <div id="bannerR">&nbsp;</div>
-        <div class="boxed">
+        <div className="boxed">
           <div id="lipsum">
             <p>
               Fusce ultrices purus quis enim porta aliquet. Quisque cursus

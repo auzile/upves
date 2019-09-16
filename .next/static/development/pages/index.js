@@ -112,7 +112,7 @@ var Banner = function Banner() {
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    class: "text-dark",
+    className: "text-dark",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 26
@@ -150,7 +150,7 @@ var _jsxFileName = "G:\\Documents\\Projects\\upves\\components\\Contact.js";
 
 var Contact = function Contact() {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    class: "contact",
+    className: "contact",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 4
@@ -268,7 +268,7 @@ var Contact = function Contact() {
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
-    class: "fa fa-envelope-o",
+    className: "fa fa-envelope-o",
     "aria-hidden": "true",
     __source: {
       fileName: _jsxFileName,
@@ -381,7 +381,7 @@ function (_React$Component) {
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("button", {
         type: "button",
-        class: "btn btn-link",
+        className: "btn btn-link",
         onClick: this.scrollToTop,
         __source: {
           fileName: _jsxFileName,
@@ -743,7 +743,7 @@ var Selection = function Selection() {
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    class: "rounded-circle",
+    className: "rounded-circle",
     src: "https://static.wixstatic.com/media/25880e_9f54d679580c4d51a03a9263b00d32e5~mv2_d_1300_1300_s_2.jpg/v1/fill/w_136,h_124,al_c,q_80,usm_0.66_1.00_0.01/93463110-capital-investment-icon.webp",
     alt: "investment pic",
     __source: {
@@ -772,7 +772,7 @@ var Selection = function Selection() {
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    class: "rounded-circle",
+    className: "rounded-circle",
     src: "https://static.wixstatic.com/media/25880e_6e760e5b78e443038f7a56e6c4d409e4~mv2.png/v1/fill/w_128,h_124,al_c,q_80,usm_0.66_1.00_0.01/download.webp",
     alt: "balanced pic",
     __source: {
@@ -801,7 +801,7 @@ var Selection = function Selection() {
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    class: "rounded-circle",
+    className: "rounded-circle",
     src: "https://static.wixstatic.com/media/25880e_ceb0e5171ff54fbb85f8471cbb0dc405~mv2.png/v1/fill/w_132,h_140,al_c,q_80,usm_0.66_1.00_0.01/investor-investment-investing-invest-009.webp",
     alt: "high profit pic",
     __source: {
@@ -845,7 +845,7 @@ var _jsxFileName = "G:\\Documents\\Projects\\upves\\components\\Taglines.js";
 
 var Tagline = function Tagline() {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    class: "tagline",
+    className: "tagline",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 2
@@ -13758,7 +13758,7 @@ var Index = function Index() {
 
 /***/ }),
 
-/***/ 0:
+/***/ 2:
 /*!***********************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F&absolutePagePath=G%3A%5CDocuments%5CProjects%5Cupves%5Cpages%5Cindex.js ***!
   \***********************************************************************************************************************/
@@ -13781,5 +13781,5 @@ module.exports = dll_1aef2d0bbc0d334d831c;
 
 /***/ })
 
-},[[0,"static/runtime/webpack.js","styles"]]]);
+},[[2,"static/runtime/webpack.js","styles"]]]);
 //# sourceMappingURL=index.js.map

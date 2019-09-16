@@ -278,7 +278,7 @@ div.selection {
   flex-direction: row;
   & .sideBar {
     height: auto;
-    width: 100vh;
+    width: 20em;
     overflow-y: auto;
   }
 
@@ -290,6 +290,7 @@ div.selection {
   & .article {
     margin-left: 50px;
     height: 750px;
+    width: 100vh;
     overflow-y: auto;
   }
 
@@ -306,7 +307,7 @@ div.selection {
     & li > a {
       font-weight: normal;
       font-stretch: normal;
-      font-size: 14px;
+      font-size: 20px;
       font-family: "helvetica-w01-roman", "helvetica-w02-roman",
         "helvetica-lt-w10-roman", sans-serif;
       font-style: normal;

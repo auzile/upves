@@ -1,118 +1,34 @@
 import Head_Banner from "../components/Head_Banner";
+import Rowpic from "../components/Rowpic";
+import balancedData from "../db/balanced.json";
 import Layout from "../layouts/Layout";
-import Link from "next/link";
 import "../styles/styles.scss";
 
-const Balanced = () => (
-  <Layout>
-    <Head_Banner
-      text_1={"BALANCED INVESTMENT"}
-      text_2={"Less risk, but more profit."}
-    />
-    <div className="cardContainer text-center">
-      <div className="cardContents">
-        <div className="card">
-          <img
-            class="card-img-top"
-            src="https://static.wixstatic.com/media/25880e_9f54d679580c4d51a03a9263b00d32e5~mv2_d_1300_1300_s_2.jpg/v1/fill/w_136,h_124,al_c,q_80,usm_0.66_1.00_0.01/93463110-capital-investment-icon.webp"
-            alt="Card image cap"
-          />
-          <div className="card-body">
-            <p className="card-text">
-              <Link href="#">Deposit</Link>
-            </p>
-          </div>
-        </div>
-        <div className="card">
-          <img
-            class="card-img-top"
-            src="https://static.wixstatic.com/media/25880e_9f54d679580c4d51a03a9263b00d32e5~mv2_d_1300_1300_s_2.jpg/v1/fill/w_136,h_124,al_c,q_80,usm_0.66_1.00_0.01/93463110-capital-investment-icon.webp"
-            alt="Card image cap"
-          />
-          <div className="card-body">
-            <p className="card-text">
-              <Link href="#">Deposit</Link>
-            </p>
-          </div>
-        </div>
-        <div className="card">
-          <img
-            class="card-img-top"
-            src="https://static.wixstatic.com/media/25880e_9f54d679580c4d51a03a9263b00d32e5~mv2_d_1300_1300_s_2.jpg/v1/fill/w_136,h_124,al_c,q_80,usm_0.66_1.00_0.01/93463110-capital-investment-icon.webp"
-            alt="Card image cap"
-          />
-          <div className="card-body">
-            <p className="card-text">
-              <Link href="#">Deposit</Link>
-            </p>
-          </div>
-        </div>
-        <div className="card">
-          <img
-            class="card-img-top"
-            src="https://static.wixstatic.com/media/25880e_9f54d679580c4d51a03a9263b00d32e5~mv2_d_1300_1300_s_2.jpg/v1/fill/w_136,h_124,al_c,q_80,usm_0.66_1.00_0.01/93463110-capital-investment-icon.webp"
-            alt="Card image cap"
-          />
-          <div className="card-body">
-            <p className="card-text">
-              <Link href="#">Deposit</Link>
-            </p>
-          </div>
-        </div>
-      </div>
+class Balanced extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {};
+  }
 
-      <div className="cardContents">
-        <div className="card">
-          <img
-            class="card-img-top"
-            src="https://static.wixstatic.com/media/25880e_9f54d679580c4d51a03a9263b00d32e5~mv2_d_1300_1300_s_2.jpg/v1/fill/w_136,h_124,al_c,q_80,usm_0.66_1.00_0.01/93463110-capital-investment-icon.webp"
-            alt="Card image cap"
-          />
-          <div className="card-body">
-            <p className="card-text">
-              <Link href="#">Deposit</Link>
-            </p>
-          </div>
+  iterates() {
+    const data = balancedData.data;
+    return data.map(item => <Rowpic item={item} />);
+  }
+
+  render() {
+    const data = balancedData.data;
+    return (
+      <Layout>
+        <Head_Banner
+          text_1={"BALANCED INVESTMENT"}
+          text_2={"Less risk, but more profit."}
+        />
+        <div className="cardContainer text-center">
+          <div className="cardContents">{this.iterates()}</div>
         </div>
-        <div className="card">
-          <img
-            class="card-img-top"
-            src="https://static.wixstatic.com/media/25880e_9f54d679580c4d51a03a9263b00d32e5~mv2_d_1300_1300_s_2.jpg/v1/fill/w_136,h_124,al_c,q_80,usm_0.66_1.00_0.01/93463110-capital-investment-icon.webp"
-            alt="Card image cap"
-          />
-          <div className="card-body">
-            <p className="card-text">
-              <Link href="#">Deposit</Link>
-            </p>
-          </div>
-        </div>
-        <div className="card">
-          <img
-            class="card-img-top"
-            src="https://static.wixstatic.com/media/25880e_9f54d679580c4d51a03a9263b00d32e5~mv2_d_1300_1300_s_2.jpg/v1/fill/w_136,h_124,al_c,q_80,usm_0.66_1.00_0.01/93463110-capital-investment-icon.webp"
-            alt="Card image cap"
-          />
-          <div className="card-body">
-            <p className="card-text">
-              <Link href="#">Deposit</Link>
-            </p>
-          </div>
-        </div>
-        <div className="card">
-          <img
-            class="card-img-top"
-            src="https://static.wixstatic.com/media/25880e_9f54d679580c4d51a03a9263b00d32e5~mv2_d_1300_1300_s_2.jpg/v1/fill/w_136,h_124,al_c,q_80,usm_0.66_1.00_0.01/93463110-capital-investment-icon.webp"
-            alt="Card image cap"
-          />
-          <div className="card-body">
-            <p className="card-text">
-              <Link href="#">Deposit</Link>
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </Layout>
-);
+      </Layout>
+    );
+  }
+}
 
 export default Balanced;
